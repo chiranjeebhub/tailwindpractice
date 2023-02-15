@@ -32,25 +32,27 @@ export default function Home() {
                   href="#"
                   className="bg-cyan-500 px-4 py-2 ml-5 rounded-lg text-white"
                 >
-                  Resume
+                  Contact
                 </a>
               </li>
             </ul>
           </nav>
           <div className="text-center p-10">
-            <h2 className="text-5xl py-2">Chiranjeeb Jena</h2>
-            <h3>Developer & Designer</h3>
-            <p>
+            <h2 className="text-5xl py-2 text-teal-600 font-medium">
+              Chiranjeeb Jena
+            </h2>
+            <h3 className="text-2xl py-2">Developer & Designer</h3>
+            <p className="text-md py-5 leading-8 text-gray-800">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Molestias adipisci nemo maiores consectetur ipsa temporibus
               officia perspiciatis in? Sit voluptas veritatis numquam facere
               unde vitae quis perspiciatis reiciendis. Fuga, voluptatibus.
             </p>
           </div>
-          <div>
-            <AiFillTwitterCircle className="text-2xl" />
-            <AiFillLinkedin className="text-2xl" />
-            <AiFillYoutube className="text-2xl" />
+          <div className="text-5xl flex justify-center gap-16 text-gray-400">
+            <AiFillTwitterCircle />
+            <AiFillLinkedin />
+            <AiFillYoutube />
           </div>
         </section>
       </main>
